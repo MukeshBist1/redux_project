@@ -1,3 +1,4 @@
+//mediaApi.js
 import axios from "axios";
  const unsplachKey=import.meta.env.VITE_UNSPLASH_KEY;
  const pexelsKey=import.meta.env.VITE_PEXELS_KEY;
