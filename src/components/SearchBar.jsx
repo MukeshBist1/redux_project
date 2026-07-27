@@ -20,7 +20,7 @@ function SearchBar() {
                         onChange={(e)=>{settext(e.target.value)}}
                         className='transition-colors duration-500 focus:outline-none w-full
                         text-20 rounded-md border-2 border-gray-200 p-2' 
-                        type="text" placeholder='Search what you need...' 
+                        type="text" placeholder='Search...' 
                     />
                     <button className='active:shadow-[0px_0px_10px_10px_rgba(31,41,55,1)] active:shadow-gray-800 rounded-xl font-semibold active:scale-[0.95]  cursor-pointer border-2 border-gray-200 p-2 px-4 max-h-25'>Search</button>
                 </form>
