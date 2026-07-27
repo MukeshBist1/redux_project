@@ -13,7 +13,7 @@ function ResultCard({ item }) {
     };
 
     return (
-        <div className='relative flex flex-col items-center overflow-hidden h-70 aspect-7/8 rounded-2xl'>
+        <div className='result-card relative flex flex-col items-center overflow-hidden w-[90%] sm:h-70 aspect-7/8 sm:aspect-7/8 rounded-2xl'>
             <h1 className='bg-[#09090933] text-amber-50 px-3 rounded-sm backdrop-blur-lg absolute top-2 text-center z-10'>
                 {item.title}
             </h1>

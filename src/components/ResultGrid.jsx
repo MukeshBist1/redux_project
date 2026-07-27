@@ -53,9 +53,9 @@ function ResultGrid() {
     if(loading) return <h1>Loading...</h1>
 
     return (
-        <div className='place-items-center w-full max-w-350 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mx-auto px-4 pt-45 pb-4 gap-6'>
+        <div className='place-items-center w-full max-w-350 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mx-auto px-4 pt-35 sm:pt-45 pb-4 gap-6'>
             {results.map((item,idx)=>{
-            return <div key={idx}>
+            return <div className='flex justify-center' key={idx}>
                 <ResultCard item={item}/>
             </div>
             })}
